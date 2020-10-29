@@ -1,5 +1,5 @@
 name: Publish NuGet
-author: Rohith Reddy (@rohith)
+author: Gaspra forked from Rohith Reddy (@rohith)
 description: Build, Pack & Publish a NuGet package with dotnet core on project version change
 
 inputs:
@@ -45,13 +45,13 @@ outputs:
 
     PACKAGE_NAME:
         description: Name of the NuGet package generated
-    
+
     PACKAGE_PATH:
         description: Path to the generated NuGet package
 
     SYMBOLS_PACKAGE_NAME:
         description: Name of the symbols package generated
-    
+
     SYMBOLS_PACKAGE_PATH:
         description: Path to the generated symbols package
 
